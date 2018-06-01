@@ -23,7 +23,7 @@
 	</header>
     <main>
      	<h1><?php
-				echo "My first PHP script!";
+				echo "My first PHP script! test";
 				?></h1>
     </main>
     <footer>
