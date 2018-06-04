@@ -20,33 +20,32 @@
 <body>
   <div id="main">
     <main>
+       	<section id="top">
+      		<div class="containertop logo">
+	     	  <a href="https://peterwebdev.com" ><img  src="img/logosmall.png" height="30"></a>
+	    	</div>
+	        <div class="containertop2">
+				<nav><ul>
+				      <!--<li id="home"><a href="#page1">Home</a></li>-->
+				      <li id="work"><a href="#page2">Work</a></li>
+				      <li id="about"><a href="#page3">About</a></li>
+				      <li id="contact"><a href="#page4">Contact</a></li>
+				    </ul>
+				</nav>
+			</div>
+      </section>
       <section id="page1">
         <div class="demo-1">
         <div class="content">
           <div id="large-header" class="large-header">
             <canvas id="demo-canvas"></canvas>
-            <div class="navigation">
-              <div class="logo block" style="float:left; display: inline;">
-                <a href="https://peterwebdev.com" ><img  src="img/logosmall.png" height="30"></a>
-              </div>
-              <div class="block" style="float:right; display: inline;">
-                <nav>
-                   <ul>
-                      <a href="#page1"><li id="home">Home</li></a>
-                      <a href="#page2"><li id="work">Work</li></a>
-                      <a href="#page3"><li id="about">About</li></a>
-                      <a href="#page4"><li id="contact">Contact</li></a>
-                    </ul>
-                </nav>
-              </div>
-            </div>
+            
             <div class="titleblock">
-                 <h1 class="main-title bounceInLeft animated">Hi, I am peter</h1>
-                 <h1 class="subtitle">A front end developer</h2>
+                 <h1 class="main-title">Hi, I am peter</h1>
+                 <h1 class="subtitle bounceInLeft animated">A front end developer</h2>
             </div>
           </div>
         </div>
-      </section>
       </section>
       <section id="page2">
         <div class="wrap">
@@ -56,8 +55,6 @@
                      <b>Tribute Page</b>
                    <br/><br/>
                    <img src="img/tribute.jpg" class="imgflex" onclick="openlink();" width="400" height="400">
-
-
                    <div id="pop" class="pop popcontent">
                       <a href="https://demo.peterwebdev.com/Tribute-Page/" target="_blank"><div class="button">Demo</div></a>
                       <a href="https://github.com/PeterWebDev/Tribute-Page" target="_blank"><div class="button">Source/details</div></a>

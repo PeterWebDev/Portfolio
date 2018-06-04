@@ -18,18 +18,7 @@
 	background-position: center bottom;
 }
 
-.navigation {
-	background-color: #000000;
-	width:100%;
-	position: fixed;
-	margin: 0;
-	padding: 0;
-	color: #ffffff;
-	text-align: right;
-	top: 0;
-	right: 0;
 
-}
 .main-title {
 	color: #f9f1e9;
 
