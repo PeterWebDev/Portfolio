@@ -20,38 +20,37 @@
 <body>
   <div id="main">
     <main>
-       	<section id="top">
-      		<div class="containertop logo">
-	     	  <a href="https://peterwebdev.com" ><img  src="img/logosmall.png" height="30"></a>
-	    	</div>
-	        <div class="containertop2">
+		<section id="top">
+			<div class="containertop2">
 				<nav><ul>
-				      <!--<li id="home"><a href="#page1">Home</a></li>-->
+				      <li id="home">
+				      	 <a href="#page1" ><img class="logo" src="img/logosmall.png" height="20"></a>
+				      </li>
 				      <li id="work"><a href="#page2">Work</a></li>
 				      <li id="about"><a href="#page3">About</a></li>
 				      <li id="contact"><a href="#page4">Contact</a></li>
 				    </ul>
 				</nav>
 			</div>
-      </section>
+		</section>
       <section id="page1">
         <div class="demo-1">
         <div class="content">
           <div id="large-header" class="large-header">
             <canvas id="demo-canvas"></canvas>
-            
             <div class="titleblock">
                  <h1 class="main-title">Hi, I am peter</h1>
-                 <h1 class="subtitle bounceInLeft animated">A front end developer</h2>
+                 <h2 class="subtitle bounceInLeft animated">A front end developer</h2>
             </div>
           </div>
         </div>
+         </div>
       </section>
       <section id="page2">
         <div class="wrap">
           <h2>Here is my work</h2>
             <div class="project">
-               <div class="col col1 projectchild">
+              <div class="col col1 projectchild">
                      <b>Tribute Page</b>
                    <br/><br/>
                    <img src="img/tribute.jpg" class="imgflex" onclick="openlink();" width="400" height="400">
@@ -88,7 +87,7 @@
                    </div>
                   
                </div>   
-            <div> 
+            </div> 
         </div>
       </section>
       <section id="page3">

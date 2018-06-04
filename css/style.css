@@ -34,25 +34,14 @@ h2 {
   left:0;
   z-index: 11;
 }
-.containertop {
-  background-color: #000000;
-  width:100%;
-  position: fixed;
-  top: 0;
-  right: 0;
-  margin: 0;
-  padding: 0;
-  color: #ffffff;
-  text-align: right;
-}
-.containertop2 {
-  
-  width:100%;
-  position: fixed;
-  top: 0;
-  right: 0;
 
-  margin: 0;
+.containertop2 {
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  border-radius: 10px;
+  width:100%;
+  margin: auto;
   padding: 0;
   color: #ffffff;
   text-align: right;
@@ -160,18 +149,18 @@ color:#ffffff;
 max-width:400px;
 
 }
-.logo img{
-  display: block;
-   margin:13px 1em 10px 2em;
-    display: block;
+.logo{
+  display: inline;
+  max-height:20px;
+  width:auto;
   }
 
 
 
 nav{
    
-    margin: auto;
-
+    margin:0 auto;
+    text-align: center; 
   }
 
 nav a, nav a:link, nav a:visited, nav ul a:active, nav ul a:hover {
@@ -190,16 +179,20 @@ nav li {
    display: inline-block;
 }
 
-nav li:hover {
-  background-color:#888888;
-  color:#000000;
+nav li:hover  {
   box-shadow: 3px 3px 10px red;
 
 }
 
+ #home:hover {
+ background-color:#000000;
+
+}
+
+
 nav li a{
   display:inline-block;
-  padding:15px 20px;
+  padding:0.5em 1em;
 }
 
  .buttonpress {
@@ -207,6 +200,22 @@ nav li a{
   color:#000000;
   box-shadow: 3px 3px 10px red;
 }
+
+
+
+#home a{
+  padding:0.5em 1em;
+  margin: 0;
+  margin: 0;
+
+}
+#home:hover{
+
+  -ms-transform: scale(1, 1); /* IE 9 */
+    -webkit-transform: scale(1, 1); /* Safari */
+    transform: scale(1.1,1.1);
+}
+
 
 .block{
   float:none;
@@ -239,20 +248,35 @@ nav li a{
 
 
 @media (min-width: 600px) {
-
+.containertop2 {
+  position: fixed;
+  top: 0 ;
+  right: 0;
+  bottom:auto !important;
+  border-radius: 10px;
+  width:auto;
+}
 
   .block{
     float:left;
     width:auto;
+
+  }
+  nav{
+    text-align: right;
+
   }
    nav li {
     display: inline-block;
     
-    min-width:90px;
-    max-width:90px;
+   
     text-align:center;
     border-top:none;
   }
+  nav li a{
+  display:inline-block;
+  padding:1em 1.5em;
+}
   nav ul{
   list-style-type: none;
   padding:0;

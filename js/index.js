@@ -4,9 +4,6 @@ $("ul li").click(function(){
    $("ul li").removeClass("buttonpress"); 
 });
 
-$("#home").click(function(){
-   $("#home").addClass("buttonpress"); 
-});
 
 $("#work").click(function(){ 
    $("#work").addClass("buttonpress"); 
