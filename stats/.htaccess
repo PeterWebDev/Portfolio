@@ -1,0 +1,7 @@
+AuthName "peterwebdev.com statistics"
+AuthType Basic
+AuthUserFile /home/peterwebdev/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
