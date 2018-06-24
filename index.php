@@ -37,17 +37,12 @@
       </div>
     </section>
       <section id="welcome-section">
-                <div class="demo-1">
-                <div class="content">
-                <div id="large-header" class="large-header">
-                  <canvas id="demo-canvas"></canvas>
-                  <div class="titleblock">
-                    <h1 class="main-title">Hi, i'm <b>Peter</b></h1>
-                    <h2 style="border:none;" class="subtitle"><i>A front end web developer</i></h2>
-                  </div>
-                </div>
-                </div>
-                </div>
+        <div class="content">
+          <div class="titleblock">
+            <h1 class="main-title">Hi, i'm <b>Peter</b></h1>
+            <h2 style="border:none;" class="subtitle"><i>A front end web developer</i></h2>
+          </div>
+        </div>
       </section>
       <section id="projects">
         <div class="wrap">
@@ -55,23 +50,21 @@
           <h2>My work</h2>
             <div class="project">
               <div class="col col1 projectchild">
-                     <div class="project-tile"><b>Tribute Page</b></div>
+                     <div class="project-tile"><b>Product Landing Page</b></div>
                    <br/>
-                   <img src="img/tribute.jpg" class="imgflex" onclick="openlink();" width="400" height="400">
+                   <img src="https://demo.peterwebdev.com/img/productlanding.jpg" class="imgflex" onclick="openlink();" width="400" height="400">
                    <div id="pop" class="pop popcontent">
                        <div class="button close1">X</div>
-                       <a href="https://demo.peterwebdev.com/Tribute-Page/" target="_blank"><div class="button">Demo</div></a>
+                       <a href="https://demo.peterwebdev.com/Product_landingPage/" target="_blank"><div class="button">Demo</div></a>
                       <a href="https://github.com/PeterWebDev/Tribute-Page" target="_blank"><div class="button">Source/details</div></a>
                      
                       <div class="language">
                         <div class="languageholder">Mobile Responsive</div>
                         <div class="languageholder">HTML/CSS</div>
-                        <div class="languageholder">Bootstrap</div>
                         <div class="languageholder">jQuery</div>
                         <div class="languageholder">JavaScript</div>
                       </div>
                    </div>
-                   
                </div>
                <div class="col col2 projectchild">
                      <div class="project-tile"><b>Product Email Template</b></div>
@@ -81,7 +74,7 @@
 
                      <div id="pop2" class="pop popcontent">
                          <div class="button close2">X</div>
-                         <a href="https://demo.peterwebdev.com/product_Template_01" target="_blank"><div class="button">Demo</div></a>
+                         <a href="https://demo.peterwebdev.com/Product_Template_01" target="_blank"><div class="button">Demo</div></a>
                         <a href="https://github.com/PeterWebDev/Email-Templates/tree/master/Product_Template_01" target="_blank"><div class="button">Source/details</div></a>
                        
                         
@@ -102,7 +95,7 @@
                       <div class="button close3">X</div>
                        <a href="#welcome-section" target="_blank"><div class="button">Demo</div></a>
 
-                      <div class="button">Source/details</div>
+                      <div class="button"><a href="https://github.com/PeterWebDev/Portfolio" target="_blank">Source/details</a></div>
                       
                       <div class="language">
                         <div class="languageholder">Mobile Responsive</div>
@@ -119,7 +112,6 @@
                     <a href="https://demo.peterwebdev.com/" target="_blank">View All Projects</a>
                 </div>
 
-                <br/>
                 <div class="eachbutton">
                   <a id="profile-link" href="https://github.com/PeterWebDev" target="_blank">View GitHub</a>
                 </div>

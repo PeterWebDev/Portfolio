@@ -14,9 +14,16 @@
 	 height:auto;
 }
  body{
-	 padding:0;
-	 margin: 0;
+ 	padding:0;
+	margin: 0;
+    color:#383a3c;
+
+    font-weight:400;
+    font-size:1em;
+    line-height:1.25;
+    font-family:'Nunito', sans-serif;
 	 background-color:#000000;
+
 }
  h1 {
  	 font-family: 'Nunito', sans-serif;
@@ -66,6 +73,9 @@
 }
  #welcome-section{
 	 background-color:#000000;
+	  background-image:url(../img/darkbackground.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
 }
  #projects{
 	 background-color:#111111;
@@ -211,10 +221,19 @@
 	padding-top:3em;
 	margin: 0 auto;
 	font-weight:bold;
-	width: 100%;
 	max-width: 1300px;
+	width: 100%;
 	
 }
+
+
+
+.eachbutton{
+	display: table-row;
+	width: 100%;
+	
+}
+
 .eachbutton a{
 	display: inline-block;
 	width: 300px;
@@ -222,7 +241,12 @@
 	background-color:#b80606;
 	margin: :30px;
 	cursor:pointer;
+	border-top: 1px solid #000;
 }
+
+
+
+
 
 
 
@@ -794,6 +818,21 @@ input:focus, textarea:focus{
 	.iconset {
 		width: 350px;
 	}
+	 div.eachbutton + div.eachbutton {
+		padding-left:2em;
+	}
+
+	.allprojects{
+		width: 300px;
+	}
+	.eachbutton{
+		display: table-cell;
+		width: 300px;
+		
+	}
+	.eachbutton a{
+		width: 300px;
+	}
 }
 
 
@@ -806,9 +845,94 @@ input:focus, textarea:focus{
 	.iconset {
 		width: 350px;
 	}
+
 }
-/* joinning css from component and demo for the animiated affect on the home page 
-	animated background/cursor effect from https://tympanus.net
-	minified 
-*/
-.codrops-header,.codrops-top,.related>a,p.ref{text-align:center}.codrops-demos a,.codrops-top a{text-decoration:none;letter-spacing:1px}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}.clearfix:after,.clearfix:before{content:'';display:table}.clearfix:after{clear:both}body{background:#fff;color:#383a3c;font-weight:400;font-size:1em;line-height:1.25;font-family:'Nunito', sans-serif;}p.ref{padding:2em 1em}.codrops-header{margin:0 auto;padding:2em;max-width:900px}.codrops-header h1{margin:0;font-size:4.5em;line-height:1;font-weight:200}.codrops-header h1 span{display:block;padding:1em 0 1.5em;font-size:36%;color:#95a5a6;line-height:1.4}.codrops-top{width:100%;font-weight:700;font-size:.69em;padding:3em 0}.codrops-top a{display:inline-block;padding:1.5em}.codrops-icon:before{margin:0 4px;text-transform:none;font-weight:400;font-style:normal;font-variant:normal;font-family:codropsicons;line-height:1;speak:none;-webkit-font-smoothing:antialiased}.codrops-icon-drop:before{content:"\e001"}.codrops-icon-prev:before{content:"\e004"}.codrops-demos{padding-top:1em;font-size:.8em}.codrops-demos a{display:inline-block;margin:.35em .1em;padding:.5em 1.2em;outline:0;font-weight:700;border-radius:2px;font-size:110%;border:2px solid transparent}.codrops-demos h3{margin:0;padding:1em 0 .5em;font-size:.9em;float:left;min-width:90px;clear:left}.codrops-demos div:not(:first-child) h3{padding-top:2em}.codrops-demos a.current-demo,.codrops-demos a:hover{color:inherit;border-color:initial}.related{padding:10em 0}.related p{font-size:1.5em}.related>a{display:inline-block;margin:20px 10px;padding:25px;vertical-align:middle}.related a h3,.titleblock{margin:0;text-align:center}.related a img{max-width:100%;opacity:.8;border-radius:10px}.related a:active img,.related a:hover img{opacity:1}.related a h3{min-height:63px;padding:.5em 0 .3em;max-width:300px;font-weight:400;font-size:1em}@media screen and (max-width:40em){.codrops-header h1{font-size:2.5em}}.large-header{position:relative;width:100%;background:center center #000;overflow:hidden;background-size:cover;z-index:1}.demo-1 .large-header{background-image:url(../img/darkbackground.jpg)}.main-title{color:#f9f1e9;font-size:4.2em}.titleblock{position:absolute;padding:1em;color:#f9f1e9;top:47vh;left:50vw;background:url(../img/titleholder.png);-webkit-background-size:cover!important;-moz-background-size:cover!important;-o-background-size:cover!important;background-size:cover!important;background-color:rgba(000,000%,000%,10%);-webkit-transform:translate3d(-50%,-50%,0);transform:translate3d(-50%,-50%,0);width:70%}.subtitle{font-size:2em}@media only screen and (max-width :4000px){.demo-1 .main-title{font-size:4em;letter-spacing:.1em}.subtitle{font-size:2.5em;letter-spacing:.1em}}@media only screen and (max-width :785px){.demo-1 .main-title{font-size:2.5em;letter-spacing:.1em}.subtitle{font-size:1em;letter-spacing:.1em}}@media only screen and (max-width :650px){.demo-1 .main-title{font-size:2em;letter-spacing:.1em}.subtitle{font-size:1em;letter-spacing:.1em}}@media only screen and (max-width :480px){.demo-1 .main-title{font-size:1.4em;letter-spacing:.1em}.subtitle{font-size:1em;letter-spacing:.1em}}@media only screen and (max-width :320px){.demo-1 .main-title{font-size:1em;letter-spacing:.1em}.subtitle{font-size:.5em;letter-spacing:.1em}}
+
+
+.large-header{
+    position:relative;
+    width:100%;
+    background:center center #000;
+    overflow:hidden;
+    background-size:cover;
+    z-index:1
+}
+
+
+
+.main-title{
+    color:#f9f1e9;
+    font-size:4.2em
+}
+.subtitle{
+    font-size:2em;
+}
+
+.titleblock{
+    position:absolute;
+    padding:1em;
+    color:#f9f1e9;
+    top:47vh;
+    left:50vw;
+    background:url(../img/titleholder.png);
+    -webkit-background-size:cover!important;
+    -moz-background-size:cover!important;
+    -o-background-size:cover!important;
+    background-size:cover!important;
+    background-color:rgba(000,000%,000%,10%);
+    -webkit-transform:translate3d(-50%,-50%,0);
+    transform:translate3d(-50%,-50%,0);
+    width:70%;
+    text-align: center;
+}
+
+@media only screen and (max-width :4000px){
+    .demo-1 .main-title{
+        font-size:4em;
+        letter-spacing:.1em
+    }
+    .subtitle{
+        font-size:2.5em;
+        letter-spacing:.1em
+    }
+}
+@media only screen and (max-width :785px){
+    .demo-1 .main-title{
+        font-size:2.5em;
+        letter-spacing:.1em
+    }
+    .subtitle{
+        font-size:1em;
+        letter-spacing:.1em
+    }
+}
+@media only screen and (max-width :650px){
+    .demo-1 .main-title{
+        font-size:2em;
+        letter-spacing:.1em
+    }
+    .subtitle{
+        font-size:1em;
+        letter-spacing:.1em
+    }
+}
+@media only screen and (max-width :480px){
+    .demo-1 .main-title{
+        font-size:1.4em;
+        letter-spacing:.1em
+    }
+    .subtitle{
+        font-size:1em;
+        letter-spacing:.1em
+    }
+}
+@media only screen and (max-width :320px){
+    .demo-1 .main-title{
+        font-size:1em;
+        letter-spacing:.1em
+    }
+    .subtitle{
+        font-size:.5em;
+        letter-spacing:.1em
+    }
+}
